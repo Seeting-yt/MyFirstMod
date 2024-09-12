@@ -1,7 +1,9 @@
 package fr.dragonclaw.firstmod;
 
 import com.mojang.logging.LogUtils;
+import fr.dragonclaw.firstmod.items.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,7 +31,8 @@ public class FirstMod
     {
         IEventBus modEventBus = context.getModEventBus();
 
-        // Register the commonSetup method for modloading
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
 
@@ -49,9 +52,10 @@ public class FirstMod
     }
 
     //Ceci est un commentaire
-    private void addCreative(BuildCreativeModeTabContentsEvent e)
-    {
-
+    private void addCreative(BuildCreativeModeTabContentsEvent e) {
+        if (e.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            e.accept(ModItems.RUBIS);
+        }
     }
 
 
