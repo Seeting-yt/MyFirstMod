@@ -51,7 +51,7 @@ public class FirstMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent e)
     {
-        e.accept(ItemStack.EMPTY, CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
     }
 
 
