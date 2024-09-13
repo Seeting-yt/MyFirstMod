@@ -1,10 +1,9 @@
 package fr.dragonclaw.firstmod;
 
 import com.mojang.logging.LogUtils;
+import fr.dragonclaw.firstmod.items.ModCreativeModTabs;
 import fr.dragonclaw.firstmod.items.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -33,6 +32,8 @@ public class FirstMod
 
         ModItems.register(modEventBus);
 
+        ModCreativeModTabs.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
 
@@ -46,6 +47,7 @@ public class FirstMod
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
+
     private void commonSetup(final FMLCommonSetupEvent event)
     {
 
@@ -55,6 +57,7 @@ public class FirstMod
     private void addCreative(BuildCreativeModeTabContentsEvent e) {
         if (e.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             e.accept(ModItems.RUBIS);
+            e.accept(ModItems.RAW_RUBIS);
         }
     }
 

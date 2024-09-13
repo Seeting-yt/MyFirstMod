@@ -1,3 +1,5 @@
 {
-  "item.mod1.rubis": "Rubis"
+  "item.mod1.rubis": "Rubis",
+  "item.mod1.raw_rubis": "Rubis brut",
+  "creativetab.firstmod_tab": "First Mod"
 }
