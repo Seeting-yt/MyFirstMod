@@ -1,6 +1,7 @@
 package fr.dragonclaw.firstmod.items;
 
 import fr.dragonclaw.firstmod.FirstMod;
+import fr.dragonclaw.firstmod.blocks.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,7 +22,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.RAW_RUBIS.get());
                         pOutput.accept(ModItems.RUBIS.get());
-
+                        pOutput.accept(ModBlocks.RUBIS_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_RUBIS_BLOCK.get());
                         pOutput.accept(Items.DIAMOND);
                     })
                     .build());

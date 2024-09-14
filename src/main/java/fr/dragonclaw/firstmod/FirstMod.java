@@ -1,6 +1,7 @@
 package fr.dragonclaw.firstmod;
 
 import com.mojang.logging.LogUtils;
+import fr.dragonclaw.firstmod.blocks.ModBlocks;
 import fr.dragonclaw.firstmod.items.ModCreativeModTabs;
 import fr.dragonclaw.firstmod.items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,8 @@ public class FirstMod
         ModItems.register(modEventBus);
 
         ModCreativeModTabs.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
