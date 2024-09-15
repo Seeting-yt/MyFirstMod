@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mod1:rubis_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "mod1:rubis"
+  }
+}

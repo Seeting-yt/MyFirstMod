@@ -1,0 +1,13 @@
+// 1.20.1	2024-09-15T14:31:38.1691456	Block States: mod1
+c0ce203cee8403965ade4433a78df4f78ae060ac assets/mod1/blockstates/explosive_block.json
+754520878c114490892cbb39ed26d5c14e7e5f82 assets/mod1/blockstates/raw_rubis_block.json
+b210cb6546191857da87ca53cae47aa2a36f60aa assets/mod1/blockstates/rubis_block.json
+15186519a5667e29c152355f9d420d21fd70ce3f assets/mod1/blockstates/rubis_ore.json
+c8119c64509393daf00463578db841f783692a96 assets/mod1/models/block/explosive_block.json
+3c6a6c1a3021fc517f4fd2fd693821120871ffac assets/mod1/models/block/raw_rubis_block.json
+97e137f7434b5a79688f3155f12cf5dc886228de assets/mod1/models/block/rubis_block.json
+6e4f85a00b5bb8ac0584e2d04a0ae5fbec3c8463 assets/mod1/models/block/rubis_ore.json
+6c8bf53002ab20a78a84c2c653602cbf55ec2ab9 assets/mod1/models/item/explosive_block.json
+25f0dc6710ece0481109658fc3987f3ba6ead89c assets/mod1/models/item/raw_rubis_block.json
+d9b2eb9f0871b029a178801cbc29d3a2500eeaeb assets/mod1/models/item/rubis_block.json
+beacd6c2a5c681962a2810f9a318bf5b2aa38ce9 assets/mod1/models/item/rubis_ore.json

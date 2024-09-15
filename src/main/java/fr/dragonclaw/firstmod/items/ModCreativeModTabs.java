@@ -6,7 +6,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -20,11 +19,19 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBIS.get()))
                     .title(Component.translatable("creativetab.firstmod_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
                         pOutput.accept(ModItems.RAW_RUBIS.get());
                         pOutput.accept(ModItems.RUBIS.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.PINE_CONE.get());
+
                         pOutput.accept(ModBlocks.RUBIS_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_RUBIS_BLOCK.get());
-                        pOutput.accept(Items.DIAMOND);
+                        pOutput.accept(ModBlocks.RUBIS_ORE.get());
+                        pOutput.accept(ModBlocks.EXPLOSIVE_BLOCK.get());
+
+                        pOutput.accept(ModItems.STRAWBERRY.get());
+
                     })
                     .build());
 

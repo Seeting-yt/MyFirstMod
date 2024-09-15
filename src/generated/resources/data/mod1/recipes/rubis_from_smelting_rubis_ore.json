@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "rubis",
+  "ingredient": {
+    "item": "mod1:rubis_ore"
+  },
+  "result": "mod1:rubis"
+}

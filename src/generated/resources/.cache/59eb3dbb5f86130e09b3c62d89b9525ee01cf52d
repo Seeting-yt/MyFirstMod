@@ -1,0 +1,5 @@
+// 1.20.1	2024-09-15T14:31:38.1661491	Loot Tables
+fb6d0abfa2c014acde03f53e231a533def5f260a data/mod1/loot_tables/blocks/explosive_block.json
+d375f1cb075ebaab69710d74404fccab95fd9727 data/mod1/loot_tables/blocks/raw_rubis_block.json
+4c8a0e4733f782fb82562a64cec99722ca61488c data/mod1/loot_tables/blocks/rubis_block.json
+00e88d9d7fa3fdabee6a651ff091e4b911dc20a6 data/mod1/loot_tables/blocks/rubis_ore.json

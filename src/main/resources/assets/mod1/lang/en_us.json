@@ -1,7 +1,17 @@
 {
   "item.mod1.rubis": "Rubis",
   "item.mod1.raw_rubis": "Rubis brut",
+  "item.mod1.metal_detector": "Détecteur de métaux",
+  "item.mod1.strawberry": "Fraise",
+  "item.mod1.pine_cone": "Pomme de pain",
+
   "block.mod1.rubis_block": "Block de rubis",
   "block.mod1.raw_rubis_block": "Block de rubis brut",
+  "block.mod1.rubis_ore": "Minerais de rubis",
+  "block.mod1.explosive_block": "Bloc explosif",
+
+  "tooltip.mod1.metal_detector.tooltip" : "Trouve les minerais",
+  "tooltip.mod1.explosive_block.tooltip": "Une sorte de mine anti-personnel",
+
   "creativetab.firstmod_tab": "First Mod"
 }

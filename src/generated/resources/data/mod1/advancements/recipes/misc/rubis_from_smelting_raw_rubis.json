@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_rubis": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mod1:raw_rubis"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mod1:rubis_from_smelting_raw_rubis"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_rubis",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mod1:rubis_from_smelting_raw_rubis"
+    ]
+  },
+  "sends_telemetry_event": false
+}
